@@ -118,15 +118,15 @@ p:last-child {
 
 .right_container p {
   color: black;
-  color: black;
-
   padding-right: 158px;
-
 }
 #reaction{
   background-color: hsla(0, 82%, 87%, 0.132);
-  font-weight: 600;}
-
+  font-weight: 600;
+}
+#reaction .tag{
+  color: hsl(0, 100%, 67%);
+}
 .tag {
   padding-left: 10px;
 }
@@ -145,9 +145,18 @@ p:last-child {
 #memory{
   background-color: hsl(38, 90%, 88%)
 }
+#memory .tag{
+  color: hsl(39, 100%, 56%);
+}
 #verbal{
-  background-color: rgb(216, 238, 183);
+  background-color:rgb(216, 238, 183);
+}
+#verbal .tag{
+  color: hsl(166, 100%, 37%);
 }
 #visual{
   background-color: lightblue;
+}
+#visual .tag{
+  color: hsl(234, 85%, 45%);
 }
