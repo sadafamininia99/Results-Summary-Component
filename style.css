@@ -63,35 +63,34 @@ main {
 
 .result p:first-of-type {
   color: white;
-margin: 10px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-weight: 700;
-  font-size:60px ;
+  font-size: 60px;
 }
 .result p:last-of-type {
-    color: hsl(0, 4%, 52%);
-    font-weight: 400;
+  color: hsl(0, 4%, 52%);
+  font-weight: 400;
 }
-p{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    margin: 21px;
-    flex-direction: column;
-    font-weight: 900;
-}
-
-
-p:last-child{
-    color:hsl(0, 4%, 62%); 
+p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin: 21px;
+  flex-direction: column;
+  font-weight: 900;
 }
 
-.right_container{
-  height: 400px;
-  width: 280px;
+p:last-child {
+  color: hsl(0, 4%, 62%);
+}
+
+.right_container {
+  width:320px;
+  height:400px;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 10px 10px 20px 4px hsl(221, 100%, 96%);
   border-radius: 10px;
@@ -100,20 +99,55 @@ p:last-child{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left:50px;
+  padding-right:30px;
+  gap:15px;
+  padding-top:18px;
 }
 
-.reaction{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+.right_container button {
+  /* padding-top: 20px; */
+  width: 100%;
   padding: 10px;
+  border-radius: 5px;
   border: none;
-  background-color: hsla(0, 82%, 87%, 0.132);
-box-shadow: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.tag{
-  padding-left:10px;
 
+.right_container p {
+  color: black;
+  color: black;
 
+  padding-right: 158px;
+
+}
+#reaction{
+  background-color: hsla(0, 82%, 87%, 0.132);
+  font-weight: 600;}
+
+.tag {
+  padding-left: 10px;
+}
+
+#continue {
+  background-color: hsl(234, 85%, 45%);
+  color: azure;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+  padding: 12px 0px;
+  margin-top: 20px;
+}
+
+#memory{
+  background-color: hsl(38, 90%, 88%)
+}
+#verbal{
+  background-color: rgb(216, 238, 183);
+}
+#visual{
+  background-color: lightblue;
 }
