@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Hanken Grotesk;
 }
 
 body {
@@ -29,8 +28,6 @@ main {
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,7 +37,7 @@ main {
   color: hsla(0, 0%, 100%, 0.664);
   font-size: 20px;
   font-weight: 500;
-  padding: 10px 0px;
+  padding: 10px 0;
 }
 
 .result {
@@ -75,17 +72,13 @@ margin: 10px;
 }
 .result p:last-of-type {
     color: hsl(0, 4%, 52%);
-    display: flex;
     font-weight: 400;
-    z-index: 1;
 }
-
 p{
     display: flex;
     align-items: center;
     text-align: center;
     color: #fff;
-    display: flex;
     margin: 21px;
     flex-direction: column;
     font-weight: 900;
@@ -94,4 +87,33 @@ p{
 
 p:last-child{
     color:hsl(0, 4%, 62%); 
+}
+
+.right_container{
+  height: 400px;
+  width: 280px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 10px 10px 20px 4px hsl(221, 100%, 96%);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reaction{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  background-color: hsla(0, 82%, 87%, 0.132);
+box-shadow: 10px;
+}
+.tag{
+  padding-left:10px;
+
+
 }
