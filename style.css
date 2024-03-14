@@ -159,6 +159,11 @@ p:last-child {
   padding-right: 80px;
   
 }
+#memory .rate{
+  font-weight: 700;
+
+  
+}
 
 #verbal {
   background-color: rgb(216, 238, 183);
@@ -168,7 +173,10 @@ p:last-child {
   color: hsl(166, 100%, 37%);
   padding-right: 80px;
 }
+#verbal .rate{
+  font-weight: 700;
 
+}
 #visual {
   background-color: lightblue;
 }
@@ -176,4 +184,8 @@ p:last-child {
 #visual .tag {
   color: hsl(234, 85%, 45%);
   padding-right: 80px;
+}
+#visual .rate{
+  font-weight: 700;
+
 }
