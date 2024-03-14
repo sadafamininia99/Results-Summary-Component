@@ -122,11 +122,17 @@ p:last-child {
 
 #reaction {
   background-color: hsla(0, 82%, 87%, 0.132);
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 #reaction .tag {
   color: hsl(0, 100%, 67%);
+  padding-right: 80px;
+
+}
+#reaction .rate{
+  padding-left: 3px;
+  font-weight: 700;
 }
 
 .tag {
@@ -150,6 +156,8 @@ p:last-child {
 
 #memory .tag {
   color: hsl(39, 100%, 56%);
+  padding-right: 80px;
+  
 }
 
 #verbal {
@@ -158,6 +166,7 @@ p:last-child {
 
 #verbal .tag {
   color: hsl(166, 100%, 37%);
+  padding-right: 80px;
 }
 
 #visual {
@@ -166,4 +175,5 @@ p:last-child {
 
 #visual .tag {
   color: hsl(234, 85%, 45%);
+  padding-right: 80px;
 }
