@@ -141,16 +141,24 @@ p:last-child {
 }
 
 #continue {
-  background-color: hsl(234, 85%, 45%);
-  color: azure;
-  font-weight: 700;
-  display: block;
-  text-align: center;
-  border-radius: 20px;
-  padding: 12px 0px;
-  margin-top: 20px;
+  width: 100%;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(221, 100%, 96%);
+    font-weight: 500;
+    border-radius: 40px;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
+#continue:hover,
+#continue :active{
+  background-image: linear-gradient(hsl(252, 100%, 64%), hsl(241, 81%, 54%));
+
+}
 #memory {
   background-color:#FFFBF2;
 }
