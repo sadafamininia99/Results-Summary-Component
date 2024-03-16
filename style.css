@@ -65,7 +65,7 @@ main {
   flex-direction: column;
   align-items: center;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 4rem;
 }
 
 .result p:last-of-type {
@@ -105,7 +105,6 @@ p:last-child {
 }
 
 .right_container button {
-  /* padding-top: 20px; */
   width: 100%;
   padding: 10px;
   border-radius: 5px;
@@ -142,25 +141,26 @@ p:last-child {
 
 #continue {
   width: 100%;
-    background-color: hsl(224, 30%, 27%);
-    color: hsl(221, 100%, 96%);
-    font-weight: 500;
-    border-radius: 40px;
-    border: none;
-    padding: 16px;
-    cursor: pointer;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(221, 100%, 96%);
+  font-weight: 500;
+  border-radius: 40px;
+  border: none;
+  padding: 16px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 #continue:hover,
-#continue :active{
+#continue :active {
   background-image: linear-gradient(hsl(252, 100%, 64%), hsl(241, 81%, 54%));
 
 }
+
 #memory {
-  background-color:#FFFBF2;
+  background-color: #FFFBF2;
 }
 
 #memory .tag {
