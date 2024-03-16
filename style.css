@@ -128,9 +128,9 @@ p:last-child {
 #reaction .tag {
   color: hsl(0, 100%, 67%);
   padding-right: 80px;
-
 }
-#reaction .rate{
+
+#reaction .rate {
   padding-left: 3px;
   font-weight: 700;
 }
@@ -151,18 +151,24 @@ p:last-child {
 }
 
 #memory {
-  background-color: hsl(38, 90%, 88%)
+  background-color: hsl(38, 90%, 88%);
 }
 
 #memory .tag {
   color: hsl(39, 100%, 56%);
   padding-right: 80px;
-  
 }
-#memory .rate{
-  font-weight: 700;
 
-  
+#memory .rate {
+  font-weight: 700;
+}
+
+#memory .outof {
+  color: #a7a4ad;
+}
+
+#reaction .outof {
+  color: #a7a4ad;
 }
 
 #verbal {
@@ -173,10 +179,15 @@ p:last-child {
   color: hsl(166, 100%, 37%);
   padding-right: 80px;
 }
-#verbal .rate{
-  font-weight: 700;
 
+#verbal .rate {
+  font-weight: 700;
 }
+
+#verbal .outof {
+  color: #a7a4ad;
+}
+
 #visual {
   background-color: lightblue;
 }
@@ -185,7 +196,11 @@ p:last-child {
   color: hsl(234, 85%, 45%);
   padding-right: 80px;
 }
-#visual .rate{
-  font-weight: 700;
 
+#visual .rate {
+  font-weight: 700;
+}
+
+#visual .outof {
+  color: #a7a4ad;
 }
