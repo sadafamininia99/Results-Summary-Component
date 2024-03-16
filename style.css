@@ -133,6 +133,7 @@ p:last-child {
 #reaction .rate {
   padding-left: 3px;
   font-weight: 700;
+  color: #55566D;
 }
 
 .tag {
@@ -151,7 +152,7 @@ p:last-child {
 }
 
 #memory {
-  background-color: hsl(38, 90%, 88%);
+  background-color:#FFFBF2;
 }
 
 #memory .tag {
@@ -161,6 +162,8 @@ p:last-child {
 
 #memory .rate {
   font-weight: 700;
+  color: #55566D;
+
 }
 
 #memory .outof {
@@ -172,7 +175,7 @@ p:last-child {
 }
 
 #verbal {
-  background-color: rgb(216, 238, 183);
+  background-color: #F2FBFA;
 }
 
 #verbal .tag {
@@ -182,6 +185,8 @@ p:last-child {
 
 #verbal .rate {
   font-weight: 700;
+  color: #55566D;
+
 }
 
 #verbal .outof {
@@ -189,7 +194,7 @@ p:last-child {
 }
 
 #visual {
-  background-color: lightblue;
+  background-color: #F3F3FD;
 }
 
 #visual .tag {
@@ -199,6 +204,8 @@ p:last-child {
 
 #visual .rate {
   font-weight: 700;
+  color: #55566D;
+
 }
 
 #visual .outof {
